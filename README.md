@@ -1,4 +1,4 @@
-# Calculator
+# The Numb-erator
 A calculator based on HTML, CSS and JS
 
 This is the starting point of my Full Stack Development path i.e., my first project.
