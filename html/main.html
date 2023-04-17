@@ -2,24 +2,66 @@
 <html>
   <head>
     <title>The Numb-erator</title>
+    <link rel="stylesheet" href="../css/logo_img_text.css" />
+    <link rel="stylesheet" href="../css/navigation_bar.css" />
     <script src="../javascript/refresh.js"></script>
   </head>
   <body>
     <header>
-      <h3>Welcome to</h3>
-      <h1>
-        <a href="" onclick="refresh_this_page()">
-          <img src="..\Images\logo.png" height="2%" width="2%" />
-          The Numb-erator
-        </a>
-      </h1>
-      <nav>A calculator made using HTML, CSS and JS!</nav>
+      <div class="header_div">
+        <div class="logo_img">
+          <a href="" onclick="refresh_this_page()">
+            <img src="..\Images\logo.png"
+          /></a>
+        </div>
+        <div class="logo_text">
+          <div class="h3_heading"><span>Welcome To</span></div>
+          <div class="h1_heading">
+            <a href="" onclick="refresh_this_page()">
+              <span>The Numb-erator</span></a
+            >
+          </div>
+        </div>
+        <div class="nav_bar">
+          <nav>
+            <ul class="nav_bar_ul">
+              <li class="nav_bar_li">-A calculator made using</li>
+              <li class="nav_bar_li">
+                <span class="expand">HTML,</span>
+                <ul class="nav_bar_drop_ul">
+                  <li class="nav_bar_drop_li">
+                    HTML5 is<br />
+                    used to<br />build this!
+                  </li>
+                </ul>
+              </li>
+              <li class="nav_bar_li">
+                <span class="expand">CSS</span>
+                <ul class="nav_bar_drop_ul">
+                  <li class="nav_bar_drop_li">
+                    CSS3 is<br />used to<br />build this!
+                  </li>
+                </ul>
+              </li>
+              <li class="nav_bar_li">and</li>
+              <li class="nav_bar_li">
+                <span class="expand">JS!</span>
+                <ul class="nav_bar_drop_ul">
+                  <li class="nav_bar_drop_li">
+                    Javascript<br />is used to<br />build this!
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
     </header>
     <section>
       <table>
         <tr>
           <td colspan="4">
-            <input type="text" id="result" name="result" readonly />
+            <input type="text" value="Result:" readonly />
           </td>
         </tr>
         <tr>
