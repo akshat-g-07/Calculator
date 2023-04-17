@@ -1,0 +1,43 @@
+.nav_bar {
+  position: absolute;
+  right: 3.5%;
+  top: 60%;
+  font-size: 20px;
+}
+
+.nav_bar_ul,
+.nav_bar_drop_ul {
+  list-style: none;
+}
+
+.nav_bar_ul {
+  display: flex;
+}
+
+.nav_bar_li {
+  position: relative;
+  text-align: center;
+  padding: 2.5px;
+}
+
+.nav_bar_drop_ul {
+  position: relative;
+  top: 20px;
+  padding-inline-start: 0px;
+  background-color: #fde491;
+  display: none;
+}
+
+.nav_bar_li:hover > .nav_bar_drop_ul {
+  display: inherit;
+}
+
+.nav_bar_li:hover > .expand {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.nav_bar_drop_li {
+  padding: 5px;
+  text-align: center;
+}
