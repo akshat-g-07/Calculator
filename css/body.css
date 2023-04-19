@@ -1,0 +1,63 @@
+section {
+  margin-top: 135px;
+}
+
+table {
+  margin: auto;
+  padding: 50px 100px;
+}
+
+tbody,
+tr,
+td {
+  height: 50px;
+  width: 100px;
+  border: 1px solid black;
+}
+
+button {
+  text-align: center;
+  font-weight: bold;
+  font-size: large;
+  height: 100%;
+  width: 100%;
+}
+
+.result {
+  height: 80px;
+}
+
+input {
+  border: none;
+  font-family: "Orbitron", sans-serif;
+}
+
+#input1 {
+  position: fixed;
+  top: 230px;
+  left: 475px;
+  font-size: large;
+  color: grey;
+  width: 65px;
+}
+
+#input2 {
+  position: fixed;
+  top: 220px;
+  left: 550px;
+  height: 40px;
+  width: 325px;
+  font-size: large;
+  text-align: right;
+}
+
+#input3 {
+  position: fixed;
+  top: 195px;
+  left: 550px;
+  height: 40px;
+  width: 325px;
+  font-size: large;
+  text-align: right;
+  height: 25px;
+}
