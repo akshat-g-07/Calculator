@@ -67,64 +67,64 @@
           </td>
         </tr>
         <tr>
-          <td><button type="button">CE</button></td>
-          <td><button type="button">^2</button></td>
-          <td><button type="button">%</button></td>
+          <td><button type="button" onclick="clearFunction()">CE</button></td>
+          <td><button type="button" onclick="squareFunction()">^2</button></td>
+          <td><button type="button" onclick="percentFunction()">%</button></td>
           <td>
-            <button type="button">/</button>
+            <button type="button" onclick="addToEvalString('/')">/</button>
           </td>
         </tr>
         <tr>
           <td>
-            <button type="button">7</button>
+            <button type="button" onclick="addToEvalString('7')">7</button>
           </td>
           <td>
-            <button type="button">8</button>
+            <button type="button" onclick="addToEvalString('8')">8</button>
           </td>
           <td>
-            <button type="button">9</button>
+            <button type="button" onclick="addToEvalString('9')">9</button>
           </td>
           <td>
-            <button type="button">X</button>
+            <button type="button" onclick="addToEvalString('*')">X</button>
           </td>
         </tr>
         <tr>
           <td>
-            <button type="button">4</button>
+            <button type="button" onclick="addToEvalString('4')">4</button>
           </td>
           <td>
-            <button type="button">5</button>
+            <button type="button" onclick="addToEvalString('5')">5</button>
           </td>
           <td>
-            <button type="button">6</button>
+            <button type="button" onclick="addToEvalString('6')">6</button>
           </td>
           <td>
-            <button type="button">-</button>
+            <button type="button" onclick="addToEvalString('-')">-</button>
           </td>
         </tr>
         <tr>
           <td>
-            <button type="button">1</button>
+            <button type="button" onclick="addToEvalString('1')">1</button>
           </td>
           <td>
-            <button type="button">2</button>
+            <button type="button" onclick="addToEvalString('2')">2</button>
           </td>
           <td>
-            <button type="button">3</button>
+            <button type="button" onclick="addToEvalString('3')">3</button>
           </td>
           <td>
-            <button type="button">+</button>
+            <button type="button" onclick="addToEvalString('+')">+</button>
           </td>
         </tr>
         <tr>
-          <td><button type="button">+/-</button></td>
+          <td><button type="button" onclick="plusMinus()">+/-</button></td>
           <td>
-            <button type="button">0</button>
+            <button type="button" onclick="addToEvalString('0')">0</button>
           </td>
           <td>
-            <button type="button">.</button>
+            <button type="button" onclick="addToEvalString('.')">.</button>
           </td>
-          <td><button type="button">=</button></td>
+          <td><button type="button" onclick="showResult()">=</button></td>
         </tr>
       </table>
     </section>
@@ -141,5 +141,6 @@
       >
       <span>a budding Full Stack Professional</span>
     </footer>
+    <script src="../javascript/button_press.js"></script>
   </body>
 </html>
